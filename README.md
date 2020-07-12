@@ -75,6 +75,7 @@ I liked this particular quote "*Any argument that can't be settled in five minut
  
 ## Estimation
 As simple as it sound estimates are frightening activities. So much business value, reputation, distrust and failure depends on it. Reason why this simple activity causes so much  problem is imho very well described in this quote:
+
 "*Business likes to view estimates as commitments. Developers like to view estimates as guesses.*"
 
 **Estimate is a guess, not a commitment**
@@ -84,3 +85,13 @@ Reason we make estimates is because we do not know something will take. Estimati
  - Nominal : Estimate with greatest chance of success. Highest probability.
  - Pessimistic : Worst case scenario if everything goes wrong.
 
+## Pressure	
+There will almost certainly be times when programmers will be under pressure due to deadlines or other factors. It is crucial that professional should stay calm and decisive in these times, instead of blaming management for unrealistic expectations or complaining about time. 
+
+### Handling of pressure
+When under pressure, do not try to rush things ! Rushing will almost always result in wrong decision thus result in more pressure. Instead, stay calm,  step back, plan the problem and try to navigate to reasonable solution/outcome. 
+
+Communicate! Let your team or superiors know that you have trouble and ask them for their input and guidance. ***Nothing makes people more angry and less rational than surprises. Surprises multiply pressure by ten.***
+
+## Collaboration
+ Programming also requires working with people wither we want or don't. Professional programmer should take time to understand business, talk to users, sales, marketing about issues they have. We should be aware that we are sailing on same ship.
