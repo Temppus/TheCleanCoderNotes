@@ -23,3 +23,41 @@ When working on new project/feature you should understand the domain that you wi
 ### Take responsibility /  being team player
 I think that these two qualities are self explanatory and do not need to take deeper explanation.
  
+ ## Coding
+ Coding is intellectually challenging and exhausting activity. It requires level of concentration and focus that few other disciplines require.  Before you start coding you need to be sure that:
+ - you understand the problem
+ - your code should fit into system without increasing complexity
+ - your code must be readable
+
+Being concentrated  for longer period of time is challenging.  When you cannot focus (e.g. due to team/organization distractions or everyday life problems)  your code will be bad and you may end end redoing what you did later. 
+
+### Bad code
+It is very probable that worst code you end up writing is code that you wrote when you were tired. Many times this code can work but chosen solution will bite you back later on.
+
+TLDR: Make sure you have enough sleep and healthy lifestyle.
+
+### Worry code
+Whatever personal issues/problems you may have, even if you think you are not affected by it, you will be thinking about them in background and as a result it will affect your productivity and ability to code. Try to allocate some time to fix/improve this issue so it will not hunt you during the day.
+
+### Flow zone
+it was very surprising to me that author is trying to prevent coding when he feels like he entering "the zone". He is defending this decision by fact that you may end writing a lot more code when you are in the "zone" but you will end up going back to this code many times and questioning the decisions you made because you made lose sight of bigger picture.
+Whenever you realize that you are entering the zone you should step back, answer emails or better find coding partner.
+
+ ## Testing
+There is no question that tests are crucial part of software development. Main advantage of having high code coverage of your system is that:
+
+ - It actually make sure that code works !!!
+ - It helps greatly reduce defection found.
+ - It enabled you to freely add/modify functionality of current system without worrying whether it affects other parts of the system
+ - Test are making sure that code structure is flexible and easy to make changes
+
+### TDD
+ Test driven development is more than highly recommended in this book and to be fair there are pretty strong arguments for it. TDD is not new, it has been here in first form in 1998 and since then it has proven that it just works !
+ 
+Personally I think TDD is very simple concept that is making sure that :
+
+ 1. You are actually writing meaningful tests.
+ 2. it is making sure that your code is well designed, and decoupled.
+ 3. It won't let you fall into thinking that you don't need tests or that you will add tests later ("yea sure ....")
+ 4. It implicitly keeps your code coverage at high levels which in results automatically grants you all benefits mentioned that you gain when you have high test coverage !
+ 
