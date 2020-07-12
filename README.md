@@ -40,7 +40,7 @@ TLDR: Make sure you have enough sleep and healthy lifestyle.
 Whatever personal issues/problems you may have, even if you think you are not affected by it, you will be thinking about them in background and as a result it will affect your productivity and ability to code. Try to allocate some time to fix/improve this issue so it will not hunt you during the day.
 
 ### Flow zone
-it was very surprising to me that author is trying to prevent coding when he feels like he entering "the zone". He is defending this decision by fact that you may end writing a lot more code when you are in the "zone" but you will end up going back to this code many times and questioning the decisions you made because you made lose sight of bigger picture.
+it was very surprising to me that author is trying to prevent coding when he feels like he entering "the zone". He is defending this decision by fact that you may end writing a lot more code when you are in the zone  but you will end up going back to this code many times and questioning the decisions you made because you made lose sight of bigger picture.
 Whenever you realize that you are entering the zone you should step back, answer emails or better find coding partner.
 
  ## Testing
@@ -57,7 +57,30 @@ There is no question that tests are crucial part of software development. Main a
 Personally I think TDD is very simple concept that is making sure that :
 
  1. You are actually writing meaningful tests.
- 2. it is making sure that your code is well designed, and decoupled.
+ 2. It is making sure that your code is well designed, and decoupled.
  3. It won't let you fall into thinking that you don't need tests or that you will add tests later ("yea sure ....")
  4. It implicitly keeps your code coverage at high levels which in results automatically grants you all benefits mentioned that you gain when you have high test coverage !
+
+ ### CI
+ Continuous integration is commonly used nowadays but I can identify with one important note about failing CI. Failing CI should be treated  as "*stop the presses*" event and failure should be emailed to all team members. Team should concentrate to fix failing CI build ASAP, otherwise there are tendencies to postpone/ignore or in worse exclude them from build because they are inconvenient ...
  
+## Time management
+ It is important to manage your time as effectively as possible. There are always many interruptions, meetings, issues that can make your productivity suffer, therefore you should consider applying preferable techniques (e.g. pomodoro) and also follow some guidelines to mitigate distractions.
+
+### Meetings
+Meeting are necessary but there are also very costly. You should consider which meeting you should attend. or not, because they are costly. Costly for employer and also costly for you in context of your limited time.  You should avoid meetings that do not have any agenda or decline meetings that your presence is not significant. You should also leave meeting politely when you realize rest of the meeting is waste of time for you.
+
+### Disagreements
+I liked this particular quote "*Any argument that can't be settled in five minutes can be settled by arguing*". Which I consider very true and reasoning behind this is that both sides probably not using factual arguments. If something like this happens, try finding data that support your argument. If this does not help either, just flip a coin and try to choose one path. But make sure to switch to counter version when you see that chosen approach will not work or will be problematic, therefore it is very important to set criteria for evaluation beforehand.
+ 
+## Estimation
+As simple as it sound estimates are frightening activities. So much business value, reputation, distrust and failure depends on it. Reason why this simple activity causes so much  problem is imho very well described in this quote:
+"*Business likes to view estimates as commitments. Developers like to view estimates as guesses.*"
+
+**Estimate is a guess, not a commitment**
+Reason we make estimates is because we do not know something will take. Estimation should not be expressed by one number but it should be distribution of probabilities. More simplistic result of estimation should provide 3 values:
+
+ - Optimistic : If everything goes as planned without any issues . Low probability.
+ - Nominal : Estimate with greatest chance of success. Highest probability.
+ - Pessimistic : Worst case scenario if everything goes wrong.
+
